@@ -41,14 +41,13 @@ LEQ:
       # Maggi et al., 2009, GJI.
       MAX_TIME_BEFORE_FIRST_ARRIVAL: 10.0 # Maximum time before the first arrival to start window selection
       MIN_VELOCITY: 2.3 # Minimum group velocity for surface wave window selection
-      MIN_WIN_LEN_FAC: 1.5 # Minimum window length = fac * minimum period
+      MIN_WIN_LEN_FAC: 1.5 # Minimum window length = fac * minimum period, equivalent to C_1 in FlexWIN
       THRESHOLD_CORR: 0.8 # Minimum cross-correlation to select a window
       THRESHOLD_SHIFT_FAC: 0.3 # Maximum time shift to select a window = fac * minimum period
       THRESHOLD_DLNA: 0.1 # Maximum DLNA to select a window
       MIN_SNR_WINDOW: 5.0 # Minimum signal to noise ratio in a window
       IS_SPLIT_PHASES: False # Whether to split phases into different windows. It is useful for CC based adjoint source.
       C_0: 1.0
-      C_1: 1.5
       C_2: 0.0
       C_3A: 4.0
       C_3B: 2.5
