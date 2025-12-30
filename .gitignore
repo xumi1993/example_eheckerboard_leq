@@ -1,9 +1,10 @@
 DATABASES_MPI/
 OUTPUT_FILES/
 solver/
-bin/
+bin
 optimize/
 figures/
+fwat_data/
 
 *.log
 .DS_Store
