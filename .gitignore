@@ -1,0 +1,9 @@
+DATABASES_MPI/
+OUTPUT_FILES/
+solver/
+bin/
+optimize/
+figures/
+
+*.log
+.DS_Store
