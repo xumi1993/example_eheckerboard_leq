@@ -18,8 +18,9 @@ LEQ:
     # Window selection parameters
     # WIN_TYPE:
     # 1: automatic window selection.
-    # 2: surface wave window selection by Group velocity.
-    # 3: window selection relative to phase arrival time.
+    # 2: surface wave window selection by FlexWIN (Maggi et al., 2009).
+    # 3: surface wave window selection by Group velocity.
+    # 4: window selection relative to phase arrival time.
     # WIN_TYPE_X corresponds to different parameter sections below.
     WIN_TYPE: 1
     WIN_TYPE_1:
